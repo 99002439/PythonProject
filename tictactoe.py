@@ -114,8 +114,8 @@ def playGame():
     c=0;
     result1 = "play"
     result2="play"
-    player1 = raw_input("Enter player 1's name: ");
-    player2 = raw_input("Enter player 2's name: ");
+    player1 = input("Enter player 1's name: ");
+    player2 = input("Enter player 2's name: ");
     displayBoard()
     while True:
         if(c%2 == 0):
