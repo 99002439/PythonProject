@@ -137,5 +137,6 @@ def playGame():
             print("Tied :)")
             break
         c += 1;
+    return name;
    
 #playGame()
